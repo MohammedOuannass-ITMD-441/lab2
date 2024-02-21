@@ -4,6 +4,9 @@
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 /* end Flexbox Part 1 */
@@ -12,10 +15,14 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
 
 }
 
 #flex-section2 li {
+	
 
 }
 
