@@ -50,12 +50,19 @@
 
 /* Flexbox Part 3 */
 
-#flex-section3 .
-box {
+#flex-section3 .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
 
 #flex-section3 .tags ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
